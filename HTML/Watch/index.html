@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inverted watch</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    <main>
+        <h1>Calculate inverted time</h1>
+        <form action="">
+            <label for="hour">
+                <span>Put hour</span>
+                <input type="number" id="hour" min="1" max="12" required>
+            </label>
+            <label for="minute">
+                <span>Put minutes</span>
+                <input type="number" id="minute" min="0" max="60" required>
+            </label>
+            <input type="submit" value="Calculate" id="calculate" onclick="displayData()">
+        </form>
+    </main>
+    <script src="./js.js" defer></script>
+</body>
+</html>

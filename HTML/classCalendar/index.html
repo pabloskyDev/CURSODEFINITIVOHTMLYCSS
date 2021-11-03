@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms 2</title>
+</head>
+<body>
+    <!-- Complete way to do a calendar -->
+    <!-- <form action="">
+        <label for="calendar">
+            <span>Calendar</span>
+            <input type="datetime-local" id="calendar" name="calendar">
+        </label>
+        <input type="submit">
+    </form> -->
+    <main>
+        <form action="">
+            <label for="name">
+                <span>What's your name?</span>
+                <input type="text" name="name" id="name" autocomplete="name" required>
+            </label>
+            <label for="email">
+                <span>What's your email adress?</span>
+                <input type="email" name="email" id="email" autocomplete="email" required>
+            </label>            
+            <label for="country">
+                <span>What country do you live in?</span>
+                <input type="text" name="country" id="country" autocomplete="country" required>
+            </label>            
+            <label for="cp">
+                <span>What's your postal code?</span>
+                <input type="text" name="cp" id="cp" autocomplete="postal-code" required>
+            </label>
+            <input type="submit">
+        </form>
+    </main>
+</body>
+</html>

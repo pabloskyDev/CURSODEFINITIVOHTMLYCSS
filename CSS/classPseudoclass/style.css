@@ -1,0 +1,25 @@
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+    background-color: #13a4a4;
+}
+.main-nav_item {
+    display: inline-block;
+}
+.main-nav_item a{
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+/* PSEUDO CLASSES HELP TO DEFINE THE STYLE OF AN ELEMENT, AND IT'S COMUN USE AFTER COLONS */
+.main-nav_item a:hover{
+    background-color: pink;
+}
+.main-nav_item a:active{
+    color: purple;
+}
+/* PSEUDO ELEMENTS HELP TO DEFINE THE STYLE OF SPECIFIC PART FROM AN ELEMENT, AND IT'S COMUN USE AFTER TWO COLONS */
+.main-nav_item a::after{
+    content: " | ";
+}

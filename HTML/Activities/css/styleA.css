@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+*{
+    list-style-type: none;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #bd574e;
+    font-family: 'New Tegomin', serif;
+    color: black;
+    font-size: 20px;
+
+}
+main {
+    display: grid;
+}
+h1{
+    position: relative;
+    margin: auto;
+    /* background-color: black; */
+    background: transparent;
+    color: white;
+    padding: 0px 5px 15px 5px;
+    border: black solid 2px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    width: 30%;
+    text-align: center;
+}
+h1:hover{
+    background-color: #960000;
+    color: white;
+    /* La propiedad comentada permite hacer como un efecto espejo, se ve la sobra del texto */
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent, #0005); */
+}
+
+/* h1 span{
+    position: absolute;
+    display: block;
+}
+h1 span:nth-child(1){
+    top: 0;
+    left: 0;    
+    width: 20%;
+    height: 15px;
+    background: linear-gradient(90deg, transparent, #e2bcb7);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -5%;
+    }
+    50%,100%{
+        left: 80%;
+    }
+}
+
+h1 span:nth-child(2){
+    top: 20%;
+    right: 0;
+    width: 4%;
+    height: 5px;
+    background: linear-gradient(180deg, transparent, #e2bcb7);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 95%;
+    }
+}
+
+h1 span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 20%;
+    height: 15px;
+    background: linear-gradient(270deg, transparent, #e2bcb7);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -5%;
+    }
+    50%,100%{
+        right: 80%;
+    }
+}
+
+h1 span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 4%;
+    height: 5px;
+    background: linear-gradient(360deg, transparent, #e2bcb7);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -5%;
+    }
+    50%,100%{
+        bottom: 95%;
+    }
+} */
+
+ul {
+    display: flex;
+    margin: 10px auto;
+}
+ul li h3{
+    margin: 10px;
+    text-align: center;
+}
+ul li ol li{
+    margin: 10px;
+    text-align: center;
+    border: black solid 2px;
+    border-radius: 15px;
+}
+ul li ol li:hover{
+    margin: 10px;
+    /* background-color: #aa2b1d; */
+    text-align: center;
+    border: black solid 2px;
+    border-radius: 15px;
+}
+ul li ol li:nth-child(1):hover{
+    background-color: #a3ddcb;
+}
+ul li ol li:nth-child(2):hover{
+    background-color: #e8e9a1;
+}
+ul li ol li:nth-child(3):hover{
+    background-color: #e6b566;
+}
+ul li ol li:nth-child(4):hover{
+    background-color: #e5707e;
+}
+ul li ol li:nth-child(5):hover{
+    background-color: #999b84;
+}
+
+ul li ol li figure{
+    width: 200px;
+    height: 200px;
+    display: grid;
+}
+ul li ol li figure img{
+    width: 100%;
+    border-radius: 20px;
+}
+ul li ol li figure figcaption{
+    font-size: 20px;
+    font-weight: bold;
+    margin: auto;
+}
+footer {
+    margin: 0 auto;
+}

@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    background-color: #eac8af;
+}
+nav{
+    background-color: #9c3d54;
+    text-align: end;
+}
+.main-nav{
+    display: inline-flex;
+}
+.main-nav__item{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 5px;
+}
+.main-nav__item:hover{
+    background-color: #000000;
+    color: #ffffff;
+    cursor: pointer;
+}
+.main-nav__item:active{
+    color: #9e9d89;
+}
+main {
+    padding: 20px;
+}
+.main-title{
+    margin: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'New Tegomin', serif;
+}
+section{
+    width: 100%;
+    display: flex;
+}
+section aside{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 20%;
+    height: 200px;
+    background-color: #b67162;
+    padding: 10px;
+    text-align: center;
+}
+.main-article__title{
+    text-transform: capitalize;
+    font-family: 'New Tegomin', serif;
+    background-color: #f5c0c0;
+}
+section article{
+    width: 60%;
+    padding: 10px;
+    text-align: justify;
+}
+section article p{
+    width: 100%;
+    margin: 10px auto;
+    letter-spacing: 0.5px;
+}
+section article figure{
+    width: 50%;
+    margin: auto;
+}
+section article figure img{
+    width: 100%;
+}
